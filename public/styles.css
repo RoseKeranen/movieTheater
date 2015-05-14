@@ -1,0 +1,33 @@
+body{
+  background-color:#CCCCCC;
+  color:#9966CC;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2{
+  font-family:Impact, Charcoal, sans-serif;
+  color:#787878 ;
+
+}
+
+p{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#header{
+  background-color:#CC99CC;
+}
+#header, #content{
+  margin:auto;
+  padding:50px;
+  max-width:500px;
+  border-radius: 25px;
+}
+
+#content{
+  background-color:#fff;
+}

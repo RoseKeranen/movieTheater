@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>{{title}}</title>
+</head>
+<body>
+  <div id="header"><h1>Welcome to Rosie's Movie Theater</h1></div>
+  <div id="content"><h2>About This Theater</h2><p>We don't play many movies here we only have three.
+  That's okay because clearly you will enjoy all of them.</p>
+  <p>Currently we are showing these three movies for the rest of eternity.</p>
+  <ul>
+    {{#movies}}
+    <li> {{title}} - {{times}} <a href="/posters/{{url}}"> Details</a></li>
+    {{/movies}}
+  </ul>
+</div>
+</body>
+</html>
